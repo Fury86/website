@@ -1,0 +1,117 @@
+h1,h2 {
+    text-align: center;
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+.row {
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: #25262a;
+
+}
+
+.row h1 {
+font-family: cursive;
+font-size: 5vw;
+
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.reference-pic {
+    position: absolute;
+    width: 20%;
+}
+
+.box {
+    
+    background-color: #d9d9db;
+    width: 60%;
+    padding: 15%;
+    margin: auto;
+    display: block;
+ 
+}
+
+
+.display {
+    border: 1px solid;
+    background-color: #e4e5e9;
+    border-radius: 15px 0 15px 15px;
+    width: 10%;
+    padding: 20%;
+    margin: auto;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 10rem;
+    
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  align-items: center;
+ 
+  
+}
+
+.btn:hover {
+    filter: brightness(150%);
+}
+
+.red {
+    background-color: #25262a;
+    border-color: #ff7188;
+    box-shadow: 2px 2px 10px #ff7188,
+    2px 2px 10px #ff7188,
+    2px 2px 10px #ff7188,
+    2px 2px 10px #ff7188;
+  }
+  
+  .green {
+    background-color: #25262a;
+    border-color: #77ffc0;
+    box-shadow: 2px 2px 10px #77ffc0,
+    2px 2px 10px #77ffc0,
+    2px 2px 10px #77ffc0,
+    2px 2px 10px #77ffc0;
+  }
+  
+  .blue {
+    background-color: #25262a;
+    border-color: #d0feff;
+    box-shadow: 2px 2px 10px #d0feff,
+    2px 2px 10px #d0feff,
+    2px 2px 10px #d0feff,
+    2px 2px 10px #d0feff;
+  }
+
+  .pink {
+    background-color: #25262a;
+    border-color: #feceff;
+    box-shadow: 2px 2px 10px #feceff,
+    2px 2px 10px #feceff,
+    2px 2px 10px #feceff,
+    2px 2px 10px #feceff;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
