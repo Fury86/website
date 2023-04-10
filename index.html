@@ -38,7 +38,14 @@
       <div class="skill-row">
         <img class="programming-pics" src="css/images/programming.png" alt="programming">
         <h3>Web Developer</h3>
-        <p>Basic web designing knowledge. Good understanding of HTML,CSS and JAVASCRIPT.</p>
+        <p>As a web developer, I possess a foundational understanding of HTML, CSS, and JavaScript.
+          This knowledge allows me to create visually appealing and functional web pages. Additionally, my familiarity
+          with Node.js and its associated frameworks, such as Express,
+          demonstrates my ability to develop server-side applications and APIs. I have also proficiency in jQuery and
+          Bootstrap which means that I have experience with front-end development
+          tools and frameworks. Furthermore, my knowledge of EJS, a templating engine for Node.js, showcases my
+          expertise in building dynamic web applications. With this diverse
+          skill set, I have the ability to create robust and scalable web solutions.</p>
       </div>
       <div class="skill-row">
         <img class="chilli-pics" src="css/images/chili-pepper.png" alt="chili-pepper">
@@ -50,15 +57,20 @@
     </div>
     <hr>
     <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you love red hot chilli peppers as much as I do.</h3>
-      <p class="contact-message">Love red hot chilli peppers as much as I do? Let's talk about how awesome they are! We
-        can code while we eat red hot chilli peppers!</p>
-      <a class="btn" href="resources/Kristian_Dimov_CV.pdf" download>Download My CV</a>
-      <a class="btn" href="MPC/index.html">Projects</a>
-      <a class="btn" href="mailto:kris_dimov93@abv.bg">CONTACT ME</a>
-
-
+      <nav class="navbar">
+        <ul>
+          <li><a class="btn" href="resources/Kristian_Dimov_CV.pdf" download>Download My CV</a></li>
+          <li class="project-menu"><a class="btn">Projects</a>
+            <ul class="container-menu disable">
+              <li class="project-menu-options "><a href="MPC/index.html">DOM/jQuery - MPC</a></li>
+              <li class="project-menu-options "><a href="KrisWeatherApp/views/index.ejs">Node.js/Express.js -
+                  WeatherAPI</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="btn" href="mailto:kris_dimov93@abv.bg">Contact Me</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 
@@ -69,10 +81,12 @@
     <a class="footer-link" href="#">Website</a>
     <p class="copyright">© 2023 Kristian Dimov</p>
   </div>
-  <script src="index.js">
-
+  <script>
+    document.querySelector(".project-menu").addEventListener('click', () => {
+      const projectMenuOptions = document.querySelector('.container-menu');
+      projectMenuOptions.classList.toggle('disable');
+    })
   </script>
-  <script src="server.js"></script>
 </body>
 
 </html>
