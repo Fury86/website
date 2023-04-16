@@ -1,3 +1,4 @@
+$("document").ready(function() {
 $("div .btn").click(function () {
 
     let element = $(this).attr("id");
@@ -56,3 +57,4 @@ function buttonAnimationClick(element) {
     }, 100);
 
 }
+});
