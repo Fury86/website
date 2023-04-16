@@ -103,3 +103,25 @@ p {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+/* styles for screens with a width of 768px or less */
+@media (max-width: 768px) {
+  .row {
+    border-radius: 0;
+  }
+  .box {
+    width: 100%;
+    padding: 0;
+  }
+  /* more styles for smaller screens */
+}
+
+/* styles for screens with a width of 992px or less */
+@media (max-width: 992px) {
+  /* styles for medium screens */
+}
+
+/* styles for screens with a width of 1200px or less */
+@media (max-width: 1200px) {
+  /* styles for larger screens */
+}
